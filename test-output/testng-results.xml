@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-11-11T16:19:23 IST" name="Sample Test Suite" finished-at="2021-11-11T16:19:29 IST" duration-ms="5767">
+    <groups>
+    </groups>
+    <test started-at="2021-11-11T16:19:23 IST" name="Test" finished-at="2021-11-11T16:19:29 IST" duration-ms="5767">
+      <class name="newframework.SampleTest">
+        <test-method is-config="true" signature="beforeTestMethod()[pri:0, instance:newframework.SampleTest@4659191b]" started-at="2021-11-11T16:19:23 IST" name="beforeTestMethod" finished-at="2021-11-11T16:19:23 IST" duration-ms="99" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestMethod -->
+        <test-method is-config="true" signature="beforeMethodMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:newframework.SampleTest@4659191b]" started-at="2021-11-11T16:19:23 IST" name="beforeMethodMethod" finished-at="2021-11-11T16:19:27 IST" duration-ms="3837" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void newframework.SampleTest.sampleEmailEntryTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodMethod -->
+        <test-method signature="sampleEmailEntryTest()[pri:0, instance:newframework.SampleTest@4659191b]" started-at="2021-11-11T16:19:27 IST" name="sampleEmailEntryTest" finished-at="2021-11-11T16:19:28 IST" duration-ms="968" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleEmailEntryTest -->
+        <test-method is-config="true" signature="afterMethodMethod(org.testng.ITestResult)[pri:0, instance:newframework.SampleTest@4659191b]" started-at="2021-11-11T16:19:28 IST" name="afterMethodMethod" finished-at="2021-11-11T16:19:29 IST" duration-ms="683" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=sampleEmailEntryTest status=SUCCESS method=SampleTest.sampleEmailEntryTest()[pri:0, instance:newframework.SampleTest@4659191b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodMethod -->
+        <test-method is-config="true" signature="afterTestMethod()[pri:0, instance:newframework.SampleTest@4659191b]" started-at="2021-11-11T16:19:29 IST" name="afterTestMethod" finished-at="2021-11-11T16:19:29 IST" duration-ms="157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestMethod -->
+      </class> <!-- newframework.SampleTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Sample Test Suite -->
+</testng-results>
